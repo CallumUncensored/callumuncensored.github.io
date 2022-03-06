@@ -1,7 +1,3 @@
----
-layout: page
----
-
 # **CallumUncensored**
 *Video Editor, Thumbnail Creator.*
 
