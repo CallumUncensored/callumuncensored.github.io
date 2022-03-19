@@ -30,11 +30,74 @@
    <p>⠀⠀
 </div>
 
-  </head>
+<style>
+  .bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .bg-video #player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+  }
+
+  .bg-video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    margin-top: 35vh;
+    font-size: 64px;
+    text-shadow: 1px 1px 3px black;
+  }
+</style>
+
+<div class="bg-video">
+  <div class="overlay"></div>
+  <div id="player"></div>
+</div>
+
+<script>
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      videoId: '_m9pr8Cwiws',
+      playerVars: {
+        autoplay: 1,
+        controls: 0,
+        modestbranding: 1,
+        loop: 1,
+        st
+      }
+    });
+  }
+</script>
 
     <div class="wrapper">
-<iframe src="https://www.youtube.com/embed/_m9pr8Cwiws?start=30&autoplay=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&fs=0&autohide=0&controls=0&disablekb=1" width=windowWidth height=windowHeight frameborder="0"></iframe>
-        {{ content }}
+
+      
+      {{ content }}
 
       </section>
 
