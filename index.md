@@ -30,5 +30,5 @@ Other examples of thumbnails I've made are on other channels:
   *  [Hypixel Pit Hacking ft. Tenacity Client!](https://www.youtube.com/watch?v=NvRmVAT5AFU)
      *  [Thumbnail](https://img.youtube.com/vi/NvRmVAT5AFU/maxresdefault.jpg)
   *  [Bedwars BUT I can only use a PICKAXE](https://www.youtube.com/watch?v=BAyaiFQ5K3g)
-     * [Thumbnail](https://img.youtube.com/vi/BAyaiFQ5K3g/maxresdefault.jpg) https://img.youtube.com/vi/NvRmVAT5AFU/maxresdefault.jpg 
+     * [Thumbnail](https://img.youtube.com/vi/BAyaiFQ5K3g/maxresdefault.jpg)
 
